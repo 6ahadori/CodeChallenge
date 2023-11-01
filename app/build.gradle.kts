@@ -56,6 +56,7 @@ android {
 dependencies {
     implementation(libs.core.ktx)
     implementation(libs.life.cycle.runtime.ktx)
+    implementation(libs.life.cycle.runtime.compose)
     implementation(libs.compose.activity)
     implementation(platform(libs.compose.bom))
     implementation(libs.compose.ui)
@@ -80,4 +81,13 @@ dependencies {
     // Hilt
     implementation(libs.hilt.android)
     ksp(libs.dagger.hilt.compiler)
+    implementation(libs.hilt.navigation.compose)
+
+    // Test
+    testImplementation(libs.mockk)
+    testImplementation(libs.coroutines.test)
+    testImplementation(libs.truth)
+    androidTestImplementation(libs.mockk.android)
+    androidTestImplementation(libs.coroutines.test)
+    androidTestImplementation(libs.truth)
 }

@@ -42,7 +42,7 @@ junit-ext = "1.1.5"
 junit = "4.13.2"
 coroutines-test = "1.6.4"
 mockito-kotlin = "4.1.0"
-mockk = "1.13.5"
+mockk = "1.13.8"
 runner = "1.5.2"
 truth = "1.1.4"
 espresso-core = "3.5.1"
@@ -95,6 +95,7 @@ junit = { module = "junit:junit", version.ref = "junit" }
 coroutines-test = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version.ref = "coroutines-test" }
 mokito-kotlin = { module = "org.mockito.kotlin:mockito-kotlin", version.ref = "mockito-kotlin" }
 mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+mockk-android = { module = "io.mockk:mockk-android", version.ref = "mockk" }
 runner = { module = "androidx.test:runner", version.ref = "runner" }
 truth = { module = "com.google.truth:truth", version.ref = "truth" }
 compose-bom = { module = "androidx.compose:compose-bom", version.ref = "compose-bom" }
